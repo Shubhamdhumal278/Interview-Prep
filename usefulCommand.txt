@@ -1,0 +1,13 @@
+git status : checked stage files and unstage file 
+git log : to check previous commit .
+git remote add origin https://github.com/Shubhamdhumal278/Interview-Prep.git : add remote repository to upload
+git remote set-url origin <enter new repo url >   : to change/update remote repository 
+git remote -v : to check which repo we are working/commiting .
+
+
+to upload any file : 
+( open cmd => go to directory path in which project is pressen )
+git init  => to initalise git in directory
+git status => check files
+git add < project name > => it will add project to staging area. to add all files simply type( git add . )
+
