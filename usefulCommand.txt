@@ -14,3 +14,8 @@ git commit -m "first commit"  => to commit staged file
 git branch -M main               => we are selecting main branch
 git remote add origin https://github.com/Shubhamdhumal278/Cdac-Study.git         => add remote repository , and authenticate it .
 git push -u origin main             => finally last push files to the branch .
+
+
+
+git branch -r  => it will display list of all branches
+git fetch origin main  => it will fetch main branch from origin
