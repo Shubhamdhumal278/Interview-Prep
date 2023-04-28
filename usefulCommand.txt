@@ -5,9 +5,12 @@ git remote set-url origin <enter new repo url >   : to change/update remote repo
 git remote -v : to check which repo we are working/commiting .
 
 
-to upload any file : 
+to upload any file/project to git  : 
 ( open cmd => go to directory path in which project is pressen )
 git init  => to initalise git in directory
 git status => check files
 git add < project name > => it will add project to staging area. to add all files simply type( git add . )
-
+git commit -m "first commit"  => to commit staged file 
+git branch -M main               => we are selecting main branch
+git remote add origin https://github.com/Shubhamdhumal278/Cdac-Study.git         => add remote repository , and authenticate it .
+git push -u origin main             => finally last push files to the branch .
